@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ztin" mode="merge"/>
+    <filter root="/content/ztin" mode="merge"/>
+    <filter root="/content/dam/ztin" mode="merge">
+        <exclude pattern="/content/dam/ztin(/.*)?"/>
+        <include pattern="/content/dam/ztin/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ztin/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ztin" mode="merge"/>
+</workspaceFilter>
